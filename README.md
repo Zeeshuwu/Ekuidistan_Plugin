@@ -1,4 +1,4 @@
-# Ekuidistan_Plugin
+# Ekuidistan Plugin
 Eqkuidistan Plugin adalah sebuah plugin QGIS yang dirancang untuk membuat garis ekuidistan. Garis ekuidistan adalah garis di mana setiap titiknya memiliki jarak yang sama dari titik-titik terdekat pada garis input.
 Plugin ini menggunakan algoritma diagram Voronoi untuk menghasilkan garis ekuidistan dengan tingkat presisi tinggi.
 
@@ -17,7 +17,6 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
  
 - **Negara Bersebelahan (Adjacent States)**  
 
-
 - **Kasus Half Effect**  
 
 ### 1. Memilih Layer Input
@@ -34,7 +33,16 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
 ### 4. Melihat Hasil
 - Setelah proses selesai, hasil garis ekuidistan akan ditampilkan di peta QGIS.
 - Anda dapat menyimpan hasilnya sebagai layer baru atau mengekspornya ke format yang diinginkan.
-- 
+
+
+## Kasus Spesial Half Effect
+- **Langkah 1**: Memilih dua negara besar yang harus dibuat ekuidistannya, abaikan pulau kecilnya, pilih no Effect
+  
+- **Langkah 2**: Setelah itu, pilih kembali dua negara tersebut, tetapi kali ini pilih **Full Effect** dengan memilih layer pulau kecil serta pemiliknya yang sesuai. Ini akan memastikan bahwa pengaruh pulau kecil diperhitungkan dalam perhitungan garis ekuidistan.
+
+- **Langkah 3**: Setelah mendapatkan hasil dari kedua pengaturan tersebut, pilih **Median Line** hasil dari **Full Effect** dan **Median Line** hasil dari **No Effect** sebagai inputan. Dengan cara ini, Anda akan menghasilkan **Median Line** baru di antara keduanya. Median line ini adalah median line untuk **Half Effect**.
+
+
 ## Instalasi
 
 1. Buka QGIS.

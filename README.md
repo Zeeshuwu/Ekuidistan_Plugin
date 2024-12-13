@@ -25,6 +25,7 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
 
 ### 2. Pengaturan Bobot Pulau Kecil
 - Jika ada pulau kecil yang mempengaruhi batas maritim, pilih layer pulau kecil tersebut pada kotak **smallisland** dan atur bobotnya sesuai dengan kebutuhan (misalnya, pilih antara **Full Effect** atau **No Effect**).
+- Selanjutnya memilih kepemilikan pulau kecil tersebut, milik siapakah layer pulau kecil tersebut apakah negara A atau negara B.
 
 ### 3. Menjalankan Proses
 - Pilih opsi untuk menghitung garis ekuidistan berdasarkan negara yang bersebelahan atau berhadapan.
@@ -36,6 +37,8 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
 
 
 ## Kasus Spesial Half Effect
+Dalam pembuatan Median line Half Effect, memerlukan beberapa langkah tambahan, dimana Half Effect sejatinya merupakan garis ekuidistan diantara batas Median Full effect dan Nill Effect pada dua negara, berikut langkahnya :
+
 - **Langkah 1**: Memilih dua negara besar yang harus dibuat ekuidistannya, abaikan pulau kecilnya, pilih no Effect
   
 - **Langkah 2**: Setelah itu, pilih kembali dua negara tersebut, tetapi kali ini pilih **Full Effect** dengan memilih layer pulau kecil serta pemiliknya yang sesuai. Ini akan memastikan bahwa pengaruh pulau kecil diperhitungkan dalam perhitungan garis ekuidistan.

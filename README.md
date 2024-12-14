@@ -19,7 +19,9 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
  
 - **Negara Bersebelahan (Adjacent States)**  
 
-- **Kasus Half Effect**  
+- **Kasus Half Effect**
+
+## Langkah Penggunaan
 
 ### 1. Memilih Layer Input
 ![image](https://github.com/user-attachments/assets/ca027151-52a4-48fe-a5e8-b7c274c583c5)
@@ -71,10 +73,11 @@ Dalam pembuatan Median line Half Effect, memerlukan beberapa langkah tambahan, d
 
 ## Instalasi
 
-1. Mendownload semua dependencies dan file pada branch main di repository ini
-2. membuka kotak dialog Plugins pada menu Plugins → Manage and Install Plugins, kemudian meng-install plugin dengan cara klik Install from ZIP dan mengisi ZIP file dengan ZIP yang sebelumnya telah diunduh pada GitHub. 
+1. Mendownload semua dependencies dan file pada melalui folder "Ekuidistan" pada repository ini.
+
+3. membuka kotak dialog Plugins pada menu Plugins → Manage and Install Plugins, kemudian meng-install plugin dengan cara klik Install from ZIP dan mengisi ZIP file dengan ZIP yang sebelumnya telah diunduh pada GitHub. 
 ![image](https://github.com/user-attachments/assets/b780138d-5101-4fc4-a395-2ee084211e37)
-3. Setelah plugin berhasil di install, maka  plugin dapat ditemukan pada penyimpanan plugin yang telah di install. Dapat dilihat pada gambar dibawah ini
+4. Setelah plugin berhasil di install, maka  plugin dapat ditemukan pada penyimpanan plugin yang telah di install. Dapat dilihat pada gambar dibawah ini
    
   ![image](https://github.com/user-attachments/assets/1922da0f-d6eb-4ef2-b822-d1b545acba07)
 

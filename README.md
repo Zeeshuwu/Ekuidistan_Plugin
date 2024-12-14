@@ -79,7 +79,8 @@ Dalam pembuatan Median line Half Effect, memerlukan beberapa langkah tambahan, d
 ![image](https://github.com/user-attachments/assets/b780138d-5101-4fc4-a395-2ee084211e37)
 4. Setelah plugin berhasil di install, maka  plugin dapat ditemukan pada penyimpanan plugin yang telah di install. Dapat dilihat pada gambar dibawah ini
    
-  ![image](https://github.com/user-attachments/assets/1922da0f-d6eb-4ef2-b822-d1b545acba07)
+  ![image](https://github.com/user-attachments/assets/747968bb-5340-4255-8318-6fdd25938461)
+
 
 4. Maka plugin ekuidistan dapat digunakan
 

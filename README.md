@@ -1,4 +1,5 @@
 # Ekuidistan Plugin
+"C:\Users\MUHAMMAD ZULFI\Downloads\S2\Logo Fix.png"
 Ekuidistan Plugin adalah sebuah plugin QGIS 3.0 keatas yang dirancang untuk membuat garis ekuidistan. Garis ekuidistan adalah garis di mana setiap titiknya memiliki jarak yang sama dari titik-titik terdekat pada garis input.
 Plugin ini menggunakan algoritma diagram Voronoi untuk menghasilkan garis ekuidistan dengan tingkat presisi tinggi.
 

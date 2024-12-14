@@ -30,9 +30,11 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
 ### 2. Pengaturan Bobot Pulau Kecil
 
 - Dalam pemilihan layer A dan layer B juga harus mempertimbangkan keberadaan pulau kecil apakah pulau kecil tersebut memiliki **full effect**, **null effect**, atau **half effect**. Jika kasus pulau kecil tersebut tidak memiliki efek/dampak (null effect), maka layer A dan layer B yang menjadi masukan adalah garis pangkal dua negara yang merupakan daratan utama.
-  ![image](https://github.com/user-attachments/assets/30e95184-93c5-4801-97dd-3b977d90c7a6)
+![image](https://github.com/user-attachments/assets/25872db1-fa71-4381-9662-bad8e795d6c4)
 
 - Jika kasusnya pulau kecil tersebut memberi dampak pada garis tengah (ekuidistan) yang dihasilkan, maka layer A dan layer B yang menjadi masukan adalah garis pangkal pulau kecil di negara yang memiliki pulau kecil dan garis pangkal daratan utama pada negara lainnya. Dari masukan layer A dan layer B akan menghasilkan keluaran dua garis masukan itu sendiri.
+
+![image](https://github.com/user-attachments/assets/30e95184-93c5-4801-97dd-3b977d90c7a6)
 
 
 ### 3. Menjalankan Proses

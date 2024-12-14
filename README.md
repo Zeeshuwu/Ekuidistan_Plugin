@@ -26,7 +26,7 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
 - Pastikan kedua layer memiliki sistem koordinat yang sama.
 
 ### 2. Pengaturan Bobot Pulau Kecil
-![image](https://github.com/user-attachments/assets/01df7d1f-ad4d-42ca-ba08-20beb7fc073e)
+
 
 - Dalam pemilihan layer A dan layer B juga harus mempertimbangkan keberadaan pulau kecil apakah pulau kecil tersebut memiliki **full effect**, **null effect**, atau **half effect**. Jika kasus pulau kecil tersebut tidak memiliki efek/dampak (null effect), maka layer A dan layer B yang menjadi masukan adalah garis pangkal dua negara yang merupakan daratan utama. 
 - Jika kasusnya pulau kecil tersebut memberi dampak pada garis tengah (ekuidistan) yang dihasilkan, maka layer A dan layer B yang menjadi masukan adalah garis pangkal pulau kecil di negara yang memiliki pulau kecil dan garis pangkal daratan utama pada negara lainnya. Dari masukan layer A dan layer B akan menghasilkan keluaran dua garis masukan itu sendiri.
@@ -37,8 +37,16 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
 - Klik tombol yang sesuai (misalnya, **"Opposite Line"** untuk negara yang berhadapan atau **"Adjacent Line"** untuk negara yang bersebelahan) untuk memulai proses.
 
 ### 4. Melihat Hasil
-- Setelah proses selesai, hasil garis ekuidistan akan ditampilkan di peta QGIS.
+- Setelah proses selesai, hasil garis ekuidistan akan ditampilkan di peta QGIS hasil berupa group layer yang berisi median line, Equidistance point dan boundary layer.
+  ![image](https://github.com/user-attachments/assets/fb9c7779-7b87-403b-952d-eb6dbf789990)
+
 - Anda dapat menyimpan hasilnya sebagai layer baru atau mengekspornya ke format yang diinginkan.
+- 
+*Kasus Pada Opposite States*
+![image](https://github.com/user-attachments/assets/b80e9f14-cc25-4e39-931f-61d3d2a00f7f)
+
+*Kasus Pada Adjacent States*
+
 
 
 ## Kasus Spesial Half Effect
@@ -48,7 +56,9 @@ Dalam pembuatan Median line Half Effect, memerlukan beberapa langkah tambahan, d
   
 - **Langkah 2**: Setelah itu, pilih kembali dua negara tersebut, tetapi kali ini pilih **Full Effect** dengan memilih layer pulau kecil serta pemiliknya yang sesuai. Ini akan memastikan bahwa pengaruh pulau kecil diperhitungkan dalam perhitungan garis ekuidistan. selanjutnya masukkan median **No Effect** pada kolom untuk mengambil emdian line no effect tersebut
 
-- **Langkah 3**: Setelah mendapatkan hasil dari kedua pengaturan tersebut, pilih **Median Line** hasil dari **Full Effect** dan **Median Line** hasil dari **No Effect** sebagai inputan. Dengan cara ini, Anda akan menghasilkan **Median Line** baru di antara keduanya. Median line ini adalah median line untuk **Half Effect**.
+- **Langkah 3**:
+  
+- Setelah mendapatkan hasil dari kedua pengaturan tersebut, pilih **Median Line** hasil dari **Full Effect** dan **Median Line** hasil dari **No Effect** sebagai inputan. Dengan cara ini, Anda akan menghasilkan **Median Line** baru di antara keduanya. Median line ini adalah median line untuk **Half Effect**.
 
 
 

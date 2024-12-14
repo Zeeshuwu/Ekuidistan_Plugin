@@ -65,7 +65,9 @@ Dalam pembuatan Median line Half Effect, memerlukan beberapa langkah tambahan, d
 
 ## Instalasi
 
-1. Buka QGIS.
-2. Pergi ke menu `Plugins` > `Manage and Install Plugins`.
-3. Cari `Eqkuidistan` dan klik `Install`.
+1. Mendownload semua dependencies dan file pada branch main di repository ini
+2. membuka kotak dialog Plugins pada menu Plugins → Manage and Install Plugins, kemudian meng-install plugin dengan cara klik Install from ZIP dan mengisi ZIP file dengan ZIP yang sebelumnya telah diunduh pada GitHub. 
+![image](https://github.com/user-attachments/assets/b780138d-5101-4fc4-a395-2ee084211e37)
+3. Setelah plugin berhasil di install, maka  plugin dapat ditemukan pada penyimpanan plugin yang telah di install. Dapat dilihat pada gambar dibawah ini
+![image](https://github.com/user-attachments/assets/1922da0f-d6eb-4ef2-b822-d1b545acba07)
 

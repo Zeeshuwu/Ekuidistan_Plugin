@@ -20,12 +20,17 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
 - **Kasus Half Effect**  
 
 ### 1. Memilih Layer Input
+![image](https://github.com/user-attachments/assets/ca027151-52a4-48fe-a5e8-b7c274c583c5)
+
 - Di dialog plugin, pilih dua layer garis yang akan digunakan sebagai input (misalnya, garis pangkal dari dua negara).
 - Pastikan kedua layer memiliki sistem koordinat yang sama.
 
 ### 2. Pengaturan Bobot Pulau Kecil
-- Jika ada pulau kecil yang mempengaruhi batas maritim, pilih layer pulau kecil tersebut pada kotak **smallisland** dan atur bobotnya sesuai dengan kebutuhan (misalnya, pilih antara **Full Effect** atau **No Effect**).
-- Selanjutnya memilih kepemilikan pulau kecil tersebut, milik siapakah layer pulau kecil tersebut apakah negara A atau negara B.
+![image](https://github.com/user-attachments/assets/01df7d1f-ad4d-42ca-ba08-20beb7fc073e)
+
+- Dalam pemilihan layer A dan layer B juga harus mempertimbangkan keberadaan pulau kecil apakah pulau kecil tersebut memiliki **full effect**, **null effect**, atau **half effect**. Jika kasus pulau kecil tersebut tidak memiliki efek/dampak (null effect), maka layer A dan layer B yang menjadi masukan adalah garis pangkal dua negara yang merupakan daratan utama. 
+- Jika kasusnya pulau kecil tersebut memberi dampak pada garis tengah (ekuidistan) yang dihasilkan, maka layer A dan layer B yang menjadi masukan adalah garis pangkal pulau kecil di negara yang memiliki pulau kecil dan garis pangkal daratan utama pada negara lainnya. Dari masukan layer A dan layer B akan menghasilkan keluaran dua garis masukan itu sendiri.
+
 
 ### 3. Menjalankan Proses
 - Pilih opsi untuk menghitung garis ekuidistan berdasarkan negara yang bersebelahan atau berhadapan.

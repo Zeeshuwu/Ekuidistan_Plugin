@@ -47,8 +47,9 @@ Jika Anda ingin melihat Plugin Eqkuidistan beraksi, cukup klik video di bawah in
 
 - Anda dapat menyimpan hasilnya sebagai layer baru atau mengekspornya ke format yang diinginkan.
 - 
-*Kasus Pada Opposite States*
-![image](https://github.com/user-attachments/assets/b80e9f14-cc25-4e39-931f-61d3d2a00f7f)
+*Hasil Kasus Pada Opposite States*
+![image](https://github.com/user-attachments/assets/8344304a-8cc6-460e-8e6d-16334065d7de)
+
 
 *Kasus Pada Adjacent States*
 

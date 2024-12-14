@@ -75,7 +75,7 @@ Dalam pembuatan Median line Half Effect, memerlukan beberapa langkah tambahan, d
 4. Maka plugin ekuidistan dapat digunakan
 
 ## Credits
-Plugin ini dibuat oleh Kelompok 8 PRGG Departemen Teknik Geodesi
+Plugin ini dibuat oleh Kelompok 8 PRGG Departemen Teknik Geodesi Universitas Gadjah Mada
 1. Mohammad Zulfi Rahadi Putra		
 2. Vinsensius Budi Pranata		
 3. Zahra Tul Fuada		
